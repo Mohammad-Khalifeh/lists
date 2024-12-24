@@ -1,0 +1,86 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #e0f7fa;
+  color: #000;
+  text-align: center;
+  padding: 20px;
+}
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  background-color: #0288d1;
+  padding: 20px;
+  border-radius: 10px;
+}
+.search-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.search-container input[type='text'] {
+  width: 300px;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+.search-container input[type='radio'] {
+  margin: 0 10px;
+}
+.search-container button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.search-container button.search {
+  background-color: #00acc1;
+  color: white;
+  margin: 0 10px;
+}
+.search-container button.delete {
+  background-color: #e53935;
+  color: white;
+}
+.lists {
+  display: flex;
+  justify-content: space-around;
+}
+.list {
+  background-color: #03a9f4;
+  padding: 10px;
+  border-radius: 5px;
+  width: 30%;
+}
+.list h3 {
+  background-color: #007bb2;
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+}
+.item {
+  background-color: #a5d6a7;
+  margin: 10px 0;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.button-container {
+  margin-top: 20px;
+}
+.button-container button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 0 10px;
+}
+.button-container button.add-specific {
+  background-color: #00acc1;
+  color: white;
+}
+.button-container button.add-general {
+  background-color: #e53935;
+  color: white;
+}
